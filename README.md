@@ -54,8 +54,9 @@ MODEl Contains:
 
 
 # Feature Enginerring
+   #### Feature engineering is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data. It involves selecting, extracting, and sometimes creating new features from the raw data that help the machine learning algorithms perform better.
 
-
+ 
  # Label ENCODING (Converting Textual Intensity Column into Numerical for Machine Learning Classification)
  
   
@@ -78,18 +79,18 @@ MODEl Contains:
 
 
 #  Vectorization
-
+#### Vectorization refers to the process of converting non-vectorized data or operations into vectorized form, enabling efficient execution of mathematical operations on entire arrays or datasets at once, rather than on individual elements.
 
 
   ## Bag of Words
-
+#### The "bag of words" model is a fundamental technique used in natural language processing (NLP) and text mining for representing text data as numerical feature vectors.
   
 ![Screenshot (1688)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/18d2ac8a-3f8d-4cd0-b201-9db1cc86b0ed)
 
 
 
   ## TFDIF
-
+#### It's a numerical statistic that reflects the importance of a word in a document relative to a collection of documents. TF-IDF is commonly used in natural language processing and information retrieval for feature extraction and text mining tasks.
 
   
 ![Screenshot (1689)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/d732a7a3-6e93-44bb-b6fe-345919de8f2a)
@@ -97,7 +98,7 @@ MODEl Contains:
 
 
   ## Embedding
-
+#### Word embeddings capture semantic and syntactic information about words, allowing them to represent relationships and similarities between words more effectively than traditional sparse representations like one-hot encoding or bag-of-words.
 
   
 ![Screenshot (1690)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/5cfd4174-79c1-4427-baf2-663fcc6094a4)
@@ -116,7 +117,9 @@ MODEl Contains:
 
 
 ## 1.Random Forest 
+Random Forest is a popular ensemble learning method used for classification and regression tasks. It belongs to the family of decision tree-based algorithms and is known for its simplicity, versatility, and effectiveness in a wide range of applications.
 
+Random Forest provides a measure of feature importance based on how much each feature contributes to reducing impurity (e.g., Gini impurity for classification, mean squared error for regression) across all decision trees. This can be useful for feature selection and understanding the underlying data patterns.
 
 
 ![Screenshot (1692)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/caf495a6-6511-49b3-b35a-58cc9be1eac4)
@@ -165,7 +168,7 @@ MODEl Contains:
 
 ## XGBoost
 
-
+##### XGBoost belongs to the family of boosting algorithms, which sequentially train a series of weak learners (usually decision trees) and combine their predictions to form a strong learner. Unlike bagging methods like Random Forest, where trees are trained independently, boosting methods train trees sequentially, with each subsequent tree learning from the errors of its predecessors.
 
 ![Screenshot (1699)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/cbd1cdd3-22c0-41b9-a67d-849f50f74c0a)
 
@@ -211,8 +214,9 @@ MODEl Contains:
 
 
   ##  Decision Tree
+A Decision Tree is a supervised learning algorithm used for both classification and regression tasks. It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on the features that best separate the target variable.
 
-
+A decision tree consists of nodes, where each node represents a feature or attribute, and edges connecting the nodes represent the decision rules based on the feature values. The tree starts with a root node and branches out into internal nodes and leaf nodes.
 
 
 ![Screenshot (1707)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/2bbe5a5c-29af-46b5-8411-e13ed9522bc7)
@@ -270,7 +274,9 @@ MODEl Contains:
 
 
   ## Support Vector Machine
-
+  A Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It is particularly well-suited for classification of complex datasets with high dimensionality.
+  
+ SVM aims to find the optimal hyperplane that best separates the data into different classes. The hyperplane is the decision boundary that maximizes the margin, i.e., the distance between the hyperplane and the nearest data points (support vectors) from each class.
 
   ### Classification Report 
 
@@ -292,8 +298,6 @@ MODEl Contains:
   ![Screenshot (1721)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/34008a7a-fb78-4754-9b66-6994944d88f1)
 
 
-
-
   #### ROC curve
 
 
@@ -302,6 +306,7 @@ MODEl Contains:
 
 
   ### HyperParameter Tuning
+  
   ![Screenshot (1725)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/d87b2e06-6837-48cf-81b8-4cab41c85543)
 
 
