@@ -129,5 +129,72 @@ The objective of this project is to develop an intelligent system using NLP to p
 
   ### Evaluation
   #### The Accuracy of HyperTuned Model(74%) is Better than non Tuned Model(72%),thus we will take hypertuned model for our model.
+
+
+
+  ##  Decision Tree
+
+![Screenshot (1707)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/2bbe5a5c-29af-46b5-8411-e13ed9522bc7)
+
+
+ 
+  ### Classification Report 
+  ![Screenshot (1712)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/c8aeec05-d66e-4323-a40b-14dd19611911)
+
+ ### Accuracy 
+
+![Screenshot (1708)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/90157619-e070-4dc3-b6b4-675d25adefbe)
+
+  #### ROC curve
+![Screenshot (1713)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b5aad9c8-5e15-4a50-98ea-64234d5c2836)
+
+  #### Confusion Matrix
   
+  ![Screenshot (1716)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/15a1f930-7b51-421e-9e04-36a606f7a450)
+
+
+
+  ### HyperParameter Tuning
+  
+![Screenshot (1709)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/db7d11d3-4a36-491c-aef2-8401be112c3f)
+
+![Screenshot (1710)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/096acd27-ffa5-4f43-ba37-b5e7f3e1ae22)
+
+  ### Evaluation
+  
+  #### The Accuracy of HyperTuned Model(74%) is Better than non Tuned Model(72%),thus we will take hypertuned model for our model.
+
+
+
+  ## Decision Tree
+
+![Screenshot (1699)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/cbd1cdd3-22c0-41b9-a67d-849f50f74c0a)
+
+ 
+  ### Accuracy 
+  ![Screenshot (1700)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/9e76241b-3f28-4e63-af96-fc72a6ccb9e8)
+  
+  ![Screenshot (1701)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/76e76697-a1a3-469a-945b-7b3e004546ab)
+
+
+
+  #### ROC curve
+
+![Screenshot (1702)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/eabcca04-8a35-4564-9cb1-a05d89c83faf)
+
+  #### Confusion Matrix
+![Screenshot (1703)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/1fdfeeb1-9d6a-4a85-b1e8-6334e89ae99b)
+
+
+  ### HyperParameter Tuning
+  
+![Screenshot (1704)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b8485b43-e07a-4cc1-9e53-a2e00bb4ad6e)
+
+
+  ### Evaluation
+  #### The Accuracy of HyperTuned Model(74%) is Better than non Tuned Model(72%),thus we will take hypertuned model for our model.
+
+
+
+  # CONCLUSION
 
