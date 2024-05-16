@@ -1,4 +1,5 @@
 # Machine_learning-_Capstone-Project
+
 ## The objective of this project is to develop an intelligent system using NLP to predict the intensity in the text reviews. By analyzing various parameters and process data, the system will predict the intensity where its happiness, angriness or sadness.
 
 MODEl Contains:
@@ -30,23 +31,29 @@ MODEl Contains:
 # Importing Necessary Libraies
 
 
-![Screenshot (1679)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b6c08223-4f74-4e70-8a66-5b5da07639ed)
-# Data Collection 
 
+![Screenshot (1679)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b6c08223-4f74-4e70-8a66-5b5da07639ed)
+
+
+
+
+
+# Data Collection 
+  ### Retriving the data from csv files .
 
 ![Screenshot (1680)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/0e20fa43-93ae-4809-a641-1e756ae00184)
 
 # Data Overview
-
+### Using df.columns, df.head, df.info, df.describe, df.sample
 
 ![Screenshot (1681)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b6177991-c0e2-4962-b99d-c5f91fff6e26)
 
 #  EDA (Exploratory Data Analysis )
-
+### Checking data for null values,duplicate values,unique values
 
 ![Screenshot (1683)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/f05f41fe-2c70-495d-b2e7-b60f09c428ff)
 
-
+### Using count plot to understand the intensity distribution
 
 ![Screenshot (1682)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/cf708816-3f8f-4509-b07b-9e6117f2c8d4)
 
@@ -57,32 +64,36 @@ MODEl Contains:
    #### Feature engineering is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data. It involves selecting, extracting, and sometimes creating new features from the raw data that help the machine learning algorithms perform better.
 
  
- # Label ENCODING (Converting Textual Intensity Column into Numerical for Machine Learning Classification)
+ ### LABEL ENCODING (Converting Textual Intensity Column into Numerical for Machine Learning Classification)
  
   
 ![Screenshot (1684)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/9e6511df-3235-4f2f-b265-8ba596705211)
 
-#  Tokenisation
+##  Tokenisation
 
+### To segregate the text in content into words for Data Cleaning and Extraction
 
 ![Screenshot (1685)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/41e87f37-aeba-4089-9f26-7eaabd6856b4)
 
 
-#  Lemmatization
+##  Lemmatization
 
+Lemmatization is the process of reducing words to their base or dictionary form, known as the lemma.
 ![Screenshot (1687)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/640c000d-31c9-469b-aa92-c4bba51b1820)
 
 
-#  CLEANED Text
+##  CLEANED Text
  
  ![Screenshot (1686)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/1765a63a-02e4-476b-9fb4-bed29ae96888)
 
 
-#  Vectorization
+##  Vectorization
+
 #### Vectorization refers to the process of converting non-vectorized data or operations into vectorized form, enabling efficient execution of mathematical operations on entire arrays or datasets at once, rather than on individual elements.
 
 
   ## Bag of Words
+  
 #### The "bag of words" model is a fundamental technique used in natural language processing (NLP) and text mining for representing text data as numerical feature vectors.
   
 ![Screenshot (1688)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/18d2ac8a-3f8d-4cd0-b201-9db1cc86b0ed)
@@ -90,6 +101,7 @@ MODEl Contains:
 
 
   ## TFDIF
+  
 #### It's a numerical statistic that reflects the importance of a word in a document relative to a collection of documents. TF-IDF is commonly used in natural language processing and information retrieval for feature extraction and text mining tasks.
 
   
@@ -98,6 +110,7 @@ MODEl Contains:
 
 
   ## Embedding
+  
 #### Word embeddings capture semantic and syntactic information about words, allowing them to represent relationships and similarities between words more effectively than traditional sparse representations like one-hot encoding or bag-of-words.
 
   
@@ -158,9 +171,15 @@ Random Forest provides a measure of feature importance based on how much each fe
 
 
 
-  ### Evaluation
 
 
+## Evauation
+
+Accuracy with Hyperparameter Tunning --> 0.7745098039215687
+
+Accuracy Without Hyperparameter Tuning -->  0.78  
+
+We can observe their is not much difference between the two.
   
   ![Screenshot (1698)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/047c72e3-a196-4904-967e-588062448ae6)
 
@@ -206,14 +225,15 @@ Random Forest provides a measure of feature importance based on how much each fe
 ![Screenshot (1704)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b8485b43-e07a-4cc1-9e53-a2e00bb4ad6e)
 
 
-  ### Evaluation
+## Evauation
+### Accuracy with Hyperparameter Tunning --> 0.7401960784313726
+### Accuracy Without Hyperparameter Tuning -->  0.7156862745098039
+### We can observe that hypertuned model had performed much better.
+## We can observe that  Non - Hypertuned model had performed much better.
 
+
+  #  Decision Tree
   
-  #### The Accuracy of HyperTuned Model(74%) is Better than non Tuned Model(72%),thus we will take hypertuned model for our model.
-
-
-
-  ##  Decision Tree
 A Decision Tree is a supervised learning algorithm used for both classification and regression tasks. It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on the features that best separate the target variable.
 
 A decision tree consists of nodes, where each node represents a feature or attribute, and edges connecting the nodes represent the decision rules based on the feature values. The tree starts with a root node and branches out into internal nodes and leaf nodes.
@@ -265,7 +285,13 @@ A decision tree consists of nodes, where each node represents a feature or attri
 
 
 
-  ### Evaluation
+
+## Evauation
+### Accuracy with Hyperparameter Tunning --> 0.6985294117647058
+
+### Accuracy Without Hyperparameter Tuning -->  0.7230392156862745
+
+### We can observe that  Non - Hypertuned model had performed much better.n
 
 
   
@@ -287,7 +313,7 @@ A decision tree consists of nodes, where each node represents a feature or attri
 
 
   ### Accuracy 
-
+###### Accuract Score 78.70
   
   ![Screenshot (1720)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/b4f03cae-272a-4bc2-92f5-0662ccfe78d3)
 
@@ -312,9 +338,14 @@ A decision tree consists of nodes, where each node represents a feature or attri
 
 
   ### Evaluation
+### Accuracy with Hyperparameter Tunning --> 0.7867647058823529
 
+
+### Accuracy Without Hyperparameter Tuning -->  0.7867647058823529
+
+### We can observe that  Both models have same accuracy.
   
-  #### The Accuracy of HyperTuned Model(74%) is Better than non Tuned Model(72%),thus we will take hypertuned model for our model.
+
 
 
 
@@ -322,16 +353,19 @@ A decision tree consists of nodes, where each node represents a feature or attri
 ![Screenshot (1727)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/6fb6330a-810d-4aa7-bcdd-d7e59bfa308d)
 
 
-
-### Outcome 
+#### There is lot of difference between Training and Testing dataset Accuracies.
+#### This may be due to the overfittng thus we need to perform Cross-Validation.
 
 
 
 ## Cross-Validation
  ![Screenshot (1728)](https://github.com/21Ayu/Machine_learning-_Capstone-Project/assets/123882702/0b967b39-de34-4b0e-93d7-4ed13b8cf894)
 
+### Mean -Accuracy of the model comes out to be 77.3%
 
- ## Outcome
+ 
 
   # CONCLUSION
-
+### * We can conclude that Support Vector Machine Model is Good for our Problem Statement.
+### * Higher Accuracy of 80 % or above can not be acheived by all the models 
+### * There is Overfitting in our models as Data Size is too less.
